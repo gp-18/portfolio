@@ -19,5 +19,10 @@ $('.menu-btn').click(function(){
 });
 
 
-
-// 
+    // typing text animation script
+var typed = new Typed(".typing", {
+    strings: ["Student", "Programmer", "Developer", "Designer"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+});

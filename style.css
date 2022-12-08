@@ -421,10 +421,14 @@ section .title::after{
     color: crimson;
 }
 .contact .contact-content .info .head{
+    color:crimson;
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
-    color:cornsilk;
+    color:white;
+}
+.contact .contact-content .info .sub-title a ,:active, :focus{
+    color:white;
 }
 .contact .right form .fields{
     display: flex;
@@ -444,9 +448,11 @@ section .title::after{
 }
 .contact .right form .field input,
 .contact .right form .textarea textarea{
+    color:#fff;
+    background-color:#222;
     height: 100%;
     width: 100%;
-    border: 1px solid lightgrey;
+    border: 1px solid #222;
     border-radius: 6px;
     outline: none;
     padding: 0 15px;
@@ -456,9 +462,11 @@ section .title::after{
 }
 .contact .right form .field input:focus,
 .contact .right form .textarea textarea:focus{
-    border-color: #b3b3b3;
+    border-color: #fff;
 }
 .contact .right form .textarea textarea{
+  color: #fff;
+  background-color: #222;
   padding-top: 10px;
   resize: none;
 }
@@ -486,6 +494,7 @@ section .title::after{
   background: none;
 }
 
+/* my changes */
 
 
 /* responsive */
